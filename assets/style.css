@@ -1,0 +1,124 @@
+.div1{
+    background-color: #556472;
+    color: #e6eaed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    font-size: 30px;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 45%;
+    margin: 130px auto;
+    justify-content: center;
+    align-items: center;
+}
+#exit,#start{
+    box-shadow: 0 .5rem 1rem rgba(39, 37, 37, 0.15);
+    color: #fff;
+    background-color: #4d545c;
+    border-color: #495057;
+    font-size: 30px;
+    width: 30%;
+    border-radius: 8px;
+    height: 50px;
+    cursor: pointer;
+}
+#exit:hover,#start:hover{
+    background-color: #282c30;
+}
+#section2{
+    display: none;
+}
+#section1{
+    display: block;
+}
+
+#progBar1{
+   width: 70%;
+       background-color: #f0f0f0;
+       border-radius: 5px;
+       margin: 50px auto;
+       padding: 5px;
+}
+#progBar2{
+    width: 0%;
+    height: 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    
+}
+
+
+.whatquession{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #343a40;
+    color: #e9ecef;
+    border-radius: 5px;
+    margin: 60px auto;
+    height: 200px;
+    text-align: center;
+}
+.questionNumber{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.answer{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.button p{
+    color: #e9ecef;
+    background-color: #343a40;
+    margin-bottom: 0px;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.answer1,.answer2,.answer3{
+    color: #343a40;
+    background-color: #fff !important;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+@media (max-width:768px){
+    #start,#exit{
+        width: 50%;
+    }
+    .button{
+        width: 70%;
+    }
+    .answer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
